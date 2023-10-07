@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" />
+    <title>New Technolgies</title>
+    <link href="script.js" /> 
+</head>
+<body>
+    <div class="first-part">
+        <a href="#"><img src="pictures1/download2.jpg" class="navbar-brand" style="float: left;"></a>
+        <a href="index.html" class="navbar">Home</a>
+    </div>
+    
+    <section class="second-part" style="padding-bottom: 60%;">
+        <p id="example" style="float: left;"></p>
+        <div class="second1">
+            <h1>Prices for our packages</h1>
+
+
+            <div class="nav5">
+                <div class="col11">
+                    <div class="col3">
+                        <h1>1 MONTH</h1>
+                        <h6 class="col4">One month premium package.</h6>
+                        <p class="col4">To be up to date with<br> the news about the technology.</p>
+                        <div class="col4">
+                            <p>Get started at</p>
+                            <h3>$19.99</h3>
+                        </div>
+                        <a href="shoppcart.html"><button type="button" id="button2">ORDER NOW ></button></a>
+                    </div>
+                </div>
+                <div class="col11">
+                    <div class="col3">
+                        <h1>3 MONTHS</h1>
+                        <h6 class="col4">Three months premium package.</h6>
+                        <p class="col4">To be up to date with<br> the news about the technology.</p>
+                        <div class="col4">
+                            <p>Get started at</p>
+                            <h3>$49.99</h3>
+                        </div>
+                        <a href="shoppcart.html"><button type="button" id="button2">ORDER NOW ></button></a>
+                    </div>
+                </div>
+                <div class="col11">
+                    <div class="col3">
+                        <h1>6 MONTHS</h1>
+                        <h6 class="col4">Six months of premium package.</h6>
+                        <p class="col4">To be up to date with<br> the news about the technology.</p>
+                        <div class="col4">
+                            <p>Get started at</p>
+                            <h3>$99.99</h3>
+                        </div>
+                        <a href="shoppcart.html"><button type="button" id="button2">ORDER NOW ></button></a>
+                    </div>
+                </div>
+                
+            </div>
+
+
+
+            <div class="action">
+                <p class="action11">LIMITED OFFER AVAILABLE UNTIL:</p>
+                <p class="Pdesc" id="dateExp"></p>
+                <hr style="width: 50%; color: #13b693;">
+                <p class="action11">TIME LEFT:</p>
+                <p class="Pdesc" id="dateLeft"></p>
+            
+
+                <div class="nav5" style="padding-top: 2%;">
+                    <div class="col3">
+                        <h1>1 YEAR</h1>
+                        <h6 class="col4">One year premium package.</h6>
+                        <p class="col4">To be up to date with<br> the news about the technology.</p>
+                        <div class="col4">
+                            <p>Get started at</p>
+                            <h3>$149.99</h3>
+                        </div>
+                        <a href="shoppcart.html"><button type="button" id="button2">ORDER NOW ></button></a>
+                    </div>
+                </div>
+            </div> 
+            
+            
+            <div class="nav5" style="padding-top: 2%;">
+                <div class="col3">
+                    <h2> Calculator for the +12% VAT included</h2>
+                    <form name="cena" action="" method="GET" onsubmit="return calculator()">
+                        <label>Package type:</label>
+                        <select id="type" name="type">
+                            <option value="0">Select</option>
+                            <option value="20">1 month</option>
+                            <option value="50">3 months</option>
+                            <option value="100">6 months</option>
+                            <option value="150">1 year</option>
+                        </select>
+                        <br>
+                        <label>Number of packages:</label>
+                        <input type="number" name="quantity" min="0" value="1"><br>
+                        <input type="submit" value="Calculate" id="button2" style="padding: 2% 5% 2% 5%;">
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="forth-part">
+            <p>New Technolgies | Website &copy; 2022</p>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

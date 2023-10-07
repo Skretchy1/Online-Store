@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link href="style.css" rel="stylesheet" />
+    <title>New Technolgies</title>
+</head>
+<body>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <div class="first-part">
+        <a href="#"><img src="pictures1/download2.jpg" class="navbar-brand" style="float: left;"></a>
+        <a href="login.html" class="navbar">Register</a>  
+        <a href="price.html" class="navbar">Prices</a>
+        <a href="upcomingtech.html" class="navbar">New Technology</a>
+        <a href="pictures.html" class="navbar">Pictures</a>
+        <a href="Description.html" class="navbar">Description</a>
+        <a href="index.html" class="navbar">Home</a>
+    </div>
+
+    <div class="galerija-second">
+        <h2>Some upcoming technologies</h2>
+
+        <div class="swiper">
+    
+            <div class="swiper-wrapper">
+                
+            <div class="swiper-slide">
+                <a href="#"><img src="pictures1/SmartGlasses.jpg" class="picturesgalerija"></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#"><img src="pictures1/smartlenses.jfif" class="picturesgalerija"></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#"><img src="pictures1/5gnetwork.jpg" class="picturesgalerija"></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#"><img src="pictures1/VRgaming.jpg" class="picturesgalerija"></a>
+            </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="forth-part">
+            <p>New Technolgies | Website &copy; 2022</p>
+        </div>
+    </footer>
+
+    <script>
+    const swiper = new Swiper('.swiper', {
+      
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      });
+    </script> 
+
+</body>
+</html>

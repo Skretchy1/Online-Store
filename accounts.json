@@ -1,0 +1,34 @@
+{
+    "accounts": [
+      {
+        "name": "Pablo",
+        "lastname": "Escobar",
+        "userName": "Elpatron",
+        "password": "IdontKnow"
+      },
+      {
+        "name": "Will",
+        "lastname": "Smith",
+        "userName": "BigWillie",
+        "password": "Slaps123"
+      },
+      {
+        "name": "Elon",
+        "lastname": "Musk",
+        "userName": "IronMan",
+        "password": "cybertruck456"
+      },
+      {
+        "name": "Gary",
+        "lastname": "Kasparov",
+        "userName": "ChessMaster",
+        "password": "MatIn3"
+      },
+      {
+        "name": "Bill",
+        "lastname": "Gates",
+        "userName": "EvilMaster",
+        "password": "WindowsIsBetter123"
+      }
+    ]
+  }

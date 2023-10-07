@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Elite",
+        "picture": "pictures1/elite-badge-image_csp27649872.webp",
+        "description": "Enjoy the life that you always wanted. Let your dreams come true. With our package for being aware of every new discovery and oportunity in real time all day 24/7 for one month.",
+        "lenght": "1 month",
+        "Price": 100,
+        "Discount": 0
+    },
+    {
+        "id": 2,
+        "name": "Silver",
+        "picture": "pictures1/silverbagde.jpg",
+        "description": "Enjoy some more featurs. Which come with programs taht will help you if you are planing to invest or build a new business. Also there are more open information nad databases that you can use.",
+        "lenght": "3 months",
+        "Price": 270,
+        "Discount": 15
+    },
+    {
+        "id": 3,
+        "name": "Gold",
+        "picture": "pictures1/goldbagde.jpg",
+        "description": "The Golden membership insures that you will get a personal assistant taht will help you and be availbale once a week. Also more data will be available and you will get more acutare news.",
+        "lenght": "6 months",
+        "Price": 500,
+        "Discount": 20
+    },
+    {
+        "id": 4,
+        "name": "Platinum",
+        "picture": "pictures1/Platinum-Badge-e1519054728828.png",
+        "description": "With the Platinum membership you will recieve special program and website just for you and also you will recieve a whole team that will be availabale twice a week. Special applications and programs.",
+        "lenght": "1 year",
+        "Price": 900,
+        "Discount": 10
+    },
+    {
+        "id": 5,
+        "name": "Family",
+        "picture": "pictures1/myfamily.jpg",
+        "description": "With the faimily pack you get all the previous bonuses just there are more accounts and you will recieve on of the finest gifts, all the members of teh package will be able to meet at least 3 succsefull buisness man/ milionaries.",
+        "lenght": "1 year 4 members",
+        "Price": 3000,
+        "Discount": 25
+    }
+]

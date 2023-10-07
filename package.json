@@ -1,0 +1,23 @@
+{
+  "name": "center",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "Jovan Hristovski",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "sessionstorage-for-nodejs": "^1.0.2",
+    "sqlite3": "^5.0.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.16"
+  }
+}
